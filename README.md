@@ -24,6 +24,7 @@ Los objetos "X_data" e "Y_data" provienen de imágenes pre-tratadas con diferent
 -El dataset es obtenido de una recopilación de diferentes estudios y otros datasets de Kagle. El dataset completo se puede encontrar en el siguiente link: https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification/data
 -Las imágenes de entrenamiento fueron pre-tratadas con dos filtros, un filtro equalizador que hace que la imágen sea más nítida y un filtro por segmentación de clústeres. El código que hace posible los filtros se muestra debajo.
 ![image](https://github.com/user-attachments/assets/6594cc73-9064-4e4b-b703-6409e67f55f1)
+
 Las métricas de evaluación del modelo son simples, validándose en métodos de cuán preciso es en base a la división ya hecha por los humanos (accuracy) y brindando un puntaje de confianza a la hora de hacer una predicción. 
 El modelo posee una interfaz simple en donde se puede escoger o subir una imagen de los archivos. Así, pudiera tenerse una imágen de cualquier otro dataset y aún así se le aplicarían los mismos filtros necesarios para hacer la predicción, lo que lo hace adaptable. 
 
