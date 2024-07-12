@@ -8,7 +8,7 @@
 
 # Nombre
 * OculaDetect
-* 
+
 # Descripción
 OculaDetect es un modelo de reconocimiento de imágenes de capas convolucionales capaz de reconocer y distinguir entre un ojo humano sano o con tres enfermedades oculares: retinopatía adiabática, glaucoma y cataratas. 
 
