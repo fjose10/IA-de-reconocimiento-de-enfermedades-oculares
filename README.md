@@ -30,3 +30,6 @@ El modelo posee una interfaz simple en donde se puede escoger o subir una imagen
 
 # Estado del proyecto:
 El proyecto está aún en proceso de mejoría, aunque ya es funcional. Se está hablando sobre implementar funcionalidades de mapa de calor, que pudieran funcionar para entender mejor cómo y por qué se detecta x o y enfermedad. 
+
+# Actualización:
+Se mejoró la interfaz y ahora se muestran tanto las imágenes filtradas como las imágenes originales. Adicionalmente, para ciertas pruebas donde el puntaje de confianza sea menor a 0.75, ahora se muestran las dos etiquetas con mayor puntaje.
